@@ -1,0 +1,8 @@
+Este programa en Python simula un inicio de sesión sencillo con validaciones básicas. 
+Primero permite hasta tres intentos para ingresar.
+Después pide el usuario y verifica que no esté vacío ni tenga espacios.
+Luego solicita la contraseña y revisa que tenga entre uno y ocho caracteres.
+También valida que la contraseña incluya al menos una letra y un número. 
+Si los datos coinciden con el usuario “admin” y la contraseña “Admin2026”, el acceso se concede.
+Si no coinciden, se descuentan intentos hasta que se agoten y el sistema bloquea el acceso.
+En general, el programa muestra cómo usar ciclos, condicionales y validaciones de cadenas para crear un sistema básico de autenticación.
